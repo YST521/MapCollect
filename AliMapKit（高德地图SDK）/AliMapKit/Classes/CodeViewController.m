@@ -38,6 +38,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    self.title = @"编码反编码";
     self.view.backgroundColor =[UIColor greenColor];
     
 //原生编码翻遍吗    http://www.cnblogs.com/wendingding/p/3901527.html
