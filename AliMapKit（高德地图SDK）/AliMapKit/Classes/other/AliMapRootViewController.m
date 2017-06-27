@@ -14,6 +14,7 @@
 #import "AliMapViewRouteController.h"
 #import "AliMapViewNavController.h"
 #import "CodeViewController.h"
+#import "MapViewController.h"
 
 @interface AliMapRootViewController ()<UITableViewDataSource,UITableViewDelegate>
 @property (strong,nonatomic)NSMutableArray *allFunctions;//全部功能
@@ -24,7 +25,7 @@
 
 -(NSMutableArray *)allFunctions{
     if (!_allFunctions) {
-        _allFunctions = [NSMutableArray arrayWithObjects:@"地图显示",@"地图绘制",@"地图定位",@"数据检索",@"路线规划",@"汽车导航",@"编码反遍吗", nil];
+        _allFunctions = [NSMutableArray arrayWithObjects:@"地图显示",@"地图绘制",@"地图定位",@"数据检索",@"路线规划",@"汽车导航",@"编码反遍吗",@"原生地图使用", nil];
     }
     return _allFunctions;
 }
@@ -110,6 +111,14 @@
         mapViewNavVC.title = self.allFunctions[indexPath.row];
         [self.navigationController pushViewController:mapViewNavVC animated:YES];
     }
+    
+    //导航
+    if (indexPath.row==7) {
+        MapViewController *mapViewNavVC = [[MapViewController alloc] init];
+        mapViewNavVC.title = self.allFunctions[indexPath.row];
+        [self.navigationController pushViewController:mapViewNavVC animated:YES];
+    }
+
 
 }
 

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		72714A88FB0DE1DD2CAD09F2 /* libPods-AliMapKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 098282EC1AD3C5F267ABB666 /* libPods-AliMapKit.a */; };
 		98767FC81EFA68BE00F34E68 /* File.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 98767FC71EFA68BE00F34E68 /* File.rtf */; };
+		987FEB8A1F02061000085057 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 987FEB891F02061000085057 /* MapViewController.m */; };
 		98B9181F1EFA6B1A002A5318 /* CodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98B9181E1EFA6B1A002A5318 /* CodeViewController.m */; };
 		E40E6C4F1DFFBF1200B1312B /* AliMapViewDrawController.m in Sources */ = {isa = PBXBuildFile; fileRef = E40E6C3B1DFFBF1200B1312B /* AliMapViewDrawController.m */; };
 		E40E6C501DFFBF1200B1312B /* AliMapViewDrawCustomAnnotationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E40E6C3D1DFFBF1200B1312B /* AliMapViewDrawCustomAnnotationController.m */; };
@@ -163,6 +164,8 @@
 		0B04C9B58D50FD58F23442DE /* Pods-AliMapKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AliMapKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AliMapKit/Pods-AliMapKit.debug.xcconfig"; sourceTree = "<group>"; };
 		1E55279AEBCD605DC139E54B /* Pods-AliMapKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AliMapKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-AliMapKit/Pods-AliMapKit.release.xcconfig"; sourceTree = "<group>"; };
 		98767FC71EFA68BE00F34E68 /* File.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = File.rtf; sourceTree = "<group>"; };
+		987FEB881F02061000085057 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		987FEB891F02061000085057 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		98B9181D1EFA6B1A002A5318 /* CodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodeViewController.h; sourceTree = "<group>"; };
 		98B9181E1EFA6B1A002A5318 /* CodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodeViewController.m; sourceTree = "<group>"; };
 		E40E6C3A1DFFBF1200B1312B /* AliMapViewDrawController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AliMapViewDrawController.h; sourceTree = "<group>"; };
@@ -413,6 +416,15 @@
 				1E55279AEBCD605DC139E54B /* Pods-AliMapKit.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		987FEB871F0205B800085057 /* NativeMao */ = {
+			isa = PBXGroup;
+			children = (
+				987FEB881F02061000085057 /* MapViewController.h */,
+				987FEB891F02061000085057 /* MapViewController.m */,
+			);
+			name = NativeMao;
 			sourceTree = "<group>";
 		};
 		98B9181C1EFA6AF1002A5318 /* 编码反编码 */ = {
@@ -685,6 +697,7 @@
 		E46A4A5E1DFEDAA30099E425 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				987FEB871F0205B800085057 /* NativeMao */,
 				98B9181C1EFA6AF1002A5318 /* 编码反编码 */,
 				98767FC71EFA68BE00F34E68 /* File.rtf */,
 				E483B3C91E0220B50039F1B6 /* screenshots */,
@@ -1141,6 +1154,7 @@
 				E4EECC9C1E0041B300E6460E /* AliMapViewSinglePositionController.m in Sources */,
 				E4D2B46C1E03E20E00B53E42 /* AliMapViewNavController.m in Sources */,
 				E4D2B44E1E0374D500B53E42 /* AliMapViewBikeRouteController.m in Sources */,
+				987FEB8A1F02061000085057 /* MapViewController.m in Sources */,
 				E40E6CC31E00275A00B1312B /* AliMapViewDrawSurfaceCustomlayController.m in Sources */,
 				E40E6C571DFFBF1200B1312B /* AliMapViewShowController.m in Sources */,
 				E4EE46A51E0185230018111D /* UIImageView+WebCache.m in Sources */,
