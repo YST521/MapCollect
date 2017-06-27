@@ -10,6 +10,11 @@
 		72714A88FB0DE1DD2CAD09F2 /* libPods-AliMapKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 098282EC1AD3C5F267ABB666 /* libPods-AliMapKit.a */; };
 		98767FC81EFA68BE00F34E68 /* File.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 98767FC71EFA68BE00F34E68 /* File.rtf */; };
 		987FEB8A1F02061000085057 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 987FEB891F02061000085057 /* MapViewController.m */; };
+		987FEB8D1F020ED900085057 /* GradientPolylineOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 987FEB8C1F020ED900085057 /* GradientPolylineOverlay.m */; };
+		987FEB901F020F8E00085057 /* GradientPolylineRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 987FEB8F1F020F8E00085057 /* GradientPolylineRenderer.m */; };
+		987FEB941F02373200085057 /* MapTrasckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 987FEB931F02373200085057 /* MapTrasckViewController.m */; };
+		987FEB981F023F3800085057 /* LineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 987FEB971F023F3800085057 /* LineViewController.m */; };
+		987FEB9B1F023F4D00085057 /* MANaviAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 987FEB9A1F023F4D00085057 /* MANaviAnnotation.m */; };
 		98B9181F1EFA6B1A002A5318 /* CodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98B9181E1EFA6B1A002A5318 /* CodeViewController.m */; };
 		E40E6C4F1DFFBF1200B1312B /* AliMapViewDrawController.m in Sources */ = {isa = PBXBuildFile; fileRef = E40E6C3B1DFFBF1200B1312B /* AliMapViewDrawController.m */; };
 		E40E6C501DFFBF1200B1312B /* AliMapViewDrawCustomAnnotationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E40E6C3D1DFFBF1200B1312B /* AliMapViewDrawCustomAnnotationController.m */; };
@@ -166,6 +171,17 @@
 		98767FC71EFA68BE00F34E68 /* File.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = File.rtf; sourceTree = "<group>"; };
 		987FEB881F02061000085057 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
 		987FEB891F02061000085057 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		987FEB8B1F020ED900085057 /* GradientPolylineOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientPolylineOverlay.h; sourceTree = "<group>"; };
+		987FEB8C1F020ED900085057 /* GradientPolylineOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientPolylineOverlay.m; sourceTree = "<group>"; };
+		987FEB8E1F020F8E00085057 /* GradientPolylineRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientPolylineRenderer.h; sourceTree = "<group>"; };
+		987FEB8F1F020F8E00085057 /* GradientPolylineRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientPolylineRenderer.m; sourceTree = "<group>"; };
+		987FEB921F02373200085057 /* MapTrasckViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapTrasckViewController.h; sourceTree = "<group>"; };
+		987FEB931F02373200085057 /* MapTrasckViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapTrasckViewController.m; sourceTree = "<group>"; };
+		987FEB961F023F3800085057 /* LineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineViewController.h; sourceTree = "<group>"; };
+		987FEB971F023F3800085057 /* LineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineViewController.m; sourceTree = "<group>"; };
+		987FEB991F023F4D00085057 /* MANaviAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MANaviAnnotation.h; sourceTree = "<group>"; };
+		987FEB9A1F023F4D00085057 /* MANaviAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MANaviAnnotation.m; sourceTree = "<group>"; };
+		987FEB9C1F02441F00085057 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		98B9181D1EFA6B1A002A5318 /* CodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodeViewController.h; sourceTree = "<group>"; };
 		98B9181E1EFA6B1A002A5318 /* CodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodeViewController.m; sourceTree = "<group>"; };
 		E40E6C3A1DFFBF1200B1312B /* AliMapViewDrawController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AliMapViewDrawController.h; sourceTree = "<group>"; };
@@ -404,6 +420,7 @@
 		0213A4B13D9BB1B8DD377507 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				987FEB9C1F02441F00085057 /* MapKit.framework */,
 				098282EC1AD3C5F267ABB666 /* libPods-AliMapKit.a */,
 			);
 			name = Frameworks;
@@ -423,8 +440,32 @@
 			children = (
 				987FEB881F02061000085057 /* MapViewController.h */,
 				987FEB891F02061000085057 /* MapViewController.m */,
+				987FEB8B1F020ED900085057 /* GradientPolylineOverlay.h */,
+				987FEB8C1F020ED900085057 /* GradientPolylineOverlay.m */,
+				987FEB8E1F020F8E00085057 /* GradientPolylineRenderer.h */,
+				987FEB8F1F020F8E00085057 /* GradientPolylineRenderer.m */,
 			);
 			name = NativeMao;
+			sourceTree = "<group>";
+		};
+		987FEB911F0236EE00085057 /* mapLine */ = {
+			isa = PBXGroup;
+			children = (
+				987FEB921F02373200085057 /* MapTrasckViewController.h */,
+				987FEB931F02373200085057 /* MapTrasckViewController.m */,
+			);
+			name = mapLine;
+			sourceTree = "<group>";
+		};
+		987FEB951F023F2000085057 /* 高德路线 */ = {
+			isa = PBXGroup;
+			children = (
+				987FEB991F023F4D00085057 /* MANaviAnnotation.h */,
+				987FEB9A1F023F4D00085057 /* MANaviAnnotation.m */,
+				987FEB961F023F3800085057 /* LineViewController.h */,
+				987FEB971F023F3800085057 /* LineViewController.m */,
+			);
+			name = "高德路线";
 			sourceTree = "<group>";
 		};
 		98B9181C1EFA6AF1002A5318 /* 编码反编码 */ = {
@@ -697,6 +738,8 @@
 		E46A4A5E1DFEDAA30099E425 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				987FEB951F023F2000085057 /* 高德路线 */,
+				987FEB911F0236EE00085057 /* mapLine */,
 				987FEB871F0205B800085057 /* NativeMao */,
 				98B9181C1EFA6AF1002A5318 /* 编码反编码 */,
 				98767FC71EFA68BE00F34E68 /* File.rtf */,
@@ -1090,15 +1133,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				987FEB8D1F020ED900085057 /* GradientPolylineOverlay.m in Sources */,
 				E4E4E2701E015F3700D73011 /* AliMapViewShopModel.m in Sources */,
 				E41DB11B1E02687D006318D2 /* AliMapViewBusStopSearchController.m in Sources */,
 				E40E6C541DFFBF1200B1312B /* AliMapViewDrawPinDefalutPointController.m in Sources */,
 				E41DB1241E029F3D006318D2 /* AliMapViewWeatherSearchController.m in Sources */,
+				987FEB901F020F8E00085057 /* GradientPolylineRenderer.m in Sources */,
 				E4EE46A61E0185230018111D /* UIView+WebCacheOperation.m in Sources */,
 				E40E6C511DFFBF1200B1312B /* AliMapViewDrawPinController.m in Sources */,
 				E4320C981E02422300E72BE3 /* AliMapViewPOISearchByKeywordController.m in Sources */,
+				987FEB941F02373200085057 /* MapTrasckViewController.m in Sources */,
 				E4EECCA21E00426C00E6460E /* AliMapViewContinuePositionController.m in Sources */,
 				E40E6C531DFFBF1200B1312B /* AliMapViewDrawPinCustomPointController.m in Sources */,
+				987FEB9B1F023F4D00085057 /* MANaviAnnotation.m in Sources */,
 				E4E4E2671E013FFE00D73011 /* AliMapViewSearchController.m in Sources */,
 				E40E6C4F1DFFBF1200B1312B /* AliMapViewDrawController.m in Sources */,
 				E4320C971E02422300E72BE3 /* AliMapViewPOISearchByIDController.m in Sources */,
@@ -1158,6 +1205,7 @@
 				E40E6CC31E00275A00B1312B /* AliMapViewDrawSurfaceCustomlayController.m in Sources */,
 				E40E6C571DFFBF1200B1312B /* AliMapViewShowController.m in Sources */,
 				E4EE46A51E0185230018111D /* UIImageView+WebCache.m in Sources */,
+				987FEB981F023F3800085057 /* LineViewController.m in Sources */,
 				E4320C9C1E02422300E72BE3 /* AliMapViewSearchByInputTipsController.m in Sources */,
 				E4EE469A1E0185230018111D /* SDImageCache.m in Sources */,
 				E4D2B4721E03E67000B53E42 /* AliMapViewCustomNavDeriveController.m in Sources */,

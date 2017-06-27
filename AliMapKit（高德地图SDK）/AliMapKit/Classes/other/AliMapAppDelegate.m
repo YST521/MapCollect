@@ -7,6 +7,7 @@
 //
 
 #import "AliMapAppDelegate.h"
+#import <AMapFoundationKit/AMapFoundationKit.h>
 
 @interface AliMapAppDelegate ()
 
@@ -19,6 +20,7 @@
    
     //注册AliMap
     [AMapServices sharedServices].apiKey = AliMap_Appkey;
+//    [AMapServices sharedServices].apiKey = @"1e9a8d260e0704eeba940ce3f29863f2";
     
     return YES;
 }
