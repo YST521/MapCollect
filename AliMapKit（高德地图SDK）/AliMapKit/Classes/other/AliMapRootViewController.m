@@ -16,6 +16,9 @@
 #import "CodeViewController.h"
 #import "MapViewController.h"
 #import "MapTrasckViewController.h"
+#import "DatouzhenViewController.h"
+#import "BYMapViewVC.h"
+#import "TrackViewController.h"
 
 @interface AliMapRootViewController ()<UITableViewDataSource,UITableViewDelegate>
 @property (strong,nonatomic)NSMutableArray *allFunctions;//全部功能
@@ -26,7 +29,7 @@
 
 -(NSMutableArray *)allFunctions{
     if (!_allFunctions) {
-        _allFunctions = [NSMutableArray arrayWithObjects:@"地图显示",@"地图绘制",@"地图定位",@"数据检索",@"路线规划",@"汽车导航",@"编码反遍吗",@"原生地图使用",@"原生地图轨迹", nil];
+        _allFunctions = [NSMutableArray arrayWithObjects:@"地图显示",@"地图绘制",@"地图定位",@"数据检索",@"路线规划",@"汽车导航",@"编码反遍吗",@"原生地图使用",@"原生地图轨迹",@"大头针",@"地图轨迹",@"轨迹2", nil];
     }
     return _allFunctions;
 }
@@ -38,6 +41,8 @@
     _tableView.dataSource = self;
     _tableView.delegate = self;
     [self.view addSubview:_tableView];
+    
+//    iOS7以后如何在App被杀死的情况下仍然获取用户地理位置 http://www.jianshu.com/p/f0f89cc81a2d
 }
 
 
@@ -125,7 +130,30 @@
         mapViewNavVC.title = self.allFunctions[indexPath.row];
         [self.navigationController pushViewController:mapViewNavVC animated:YES];
     }
+    
+    //大头针
+    if (indexPath.row==9) {
+       DatouzhenViewController *mapViewNavVC = [[DatouzhenViewController alloc] init];
+        mapViewNavVC.title = self.allFunctions[indexPath.row];
+        [self.navigationController pushViewController:mapViewNavVC animated:YES];
+    }
 
+    //地图轨迹
+    if (indexPath.row==10) {
+     BYMapViewVC *mapViewNavVC = [[BYMapViewVC alloc] init];
+        mapViewNavVC.title = self.allFunctions[indexPath.row];
+        [self.navigationController pushViewController:mapViewNavVC animated:YES];
+    }
+    
+    //地图轨迹
+    if (indexPath.row==11) {
+        TrackViewController *mapViewNavVC = [[TrackViewController alloc] init];
+        mapViewNavVC.title = self.allFunctions[indexPath.row];
+        [self.navigationController pushViewController:mapViewNavVC animated:YES];
+    }
+
+
+    
 }
 
 @end
