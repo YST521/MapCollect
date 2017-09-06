@@ -2,8 +2,8 @@
 //  AliMapViewBackgroundPositionController.m
 //  AliMapKit
 //
-//  Created by 夏远全 on 16/12/12.
-//  Copyright © 2016年 广州市东德网络科技有限公司. All rights reserved.
+//  Created by YST on 17/04/15.
+//  Copyright © 2016年 优信无限. All rights reserved.
 //  后台定位可持久记录位置信息，适用于记轨迹录。
 
 #import "AliMapViewBackgroundPositionController.h"

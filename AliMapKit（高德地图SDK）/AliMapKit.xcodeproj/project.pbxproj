@@ -18,6 +18,15 @@
 		98E7EA071F5FE03500014F5F /* TrackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E7EA001F5FE03500014F5F /* TrackViewController.m */; };
 		98E7EA081F5FE03500014F5F /* ZSPointAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E7EA021F5FE03500014F5F /* ZSPointAnnotation.m */; };
 		98E7EA0B1F5FE08300014F5F /* MapTrasckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E7EA0A1F5FE08300014F5F /* MapTrasckViewController.m */; };
+		98E7EA111F5FE2AD00014F5F /* Address.plist in Resources */ = {isa = PBXBuildFile; fileRef = 98E7EA0F1F5FE2AC00014F5F /* Address.plist */; };
+		98E7EA121F5FE2AD00014F5F /* position.plist in Resources */ = {isa = PBXBuildFile; fileRef = 98E7EA101F5FE2AD00014F5F /* position.plist */; };
+		98E7EA151F5FE30300014F5F /* MorePointViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E7EA141F5FE30300014F5F /* MorePointViewController.m */; };
+		98E7EA201F5FE36100014F5F /* BoatInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E7EA181F5FE36100014F5F /* BoatInfo.m */; };
+		98E7EA211F5FE36100014F5F /* GotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E7EA1A1F5FE36100014F5F /* GotoViewController.m */; };
+		98E7EA221F5FE36100014F5F /* MyPositionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E7EA1C1F5FE36100014F5F /* MyPositionViewController.m */; };
+		98E7EA231F5FE36100014F5F /* MyPositionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98E7EA1D1F5FE36100014F5F /* MyPositionViewController.xib */; };
+		98E7EA241F5FE36100014F5F /* YYAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E7EA1F1F5FE36100014F5F /* YYAnnotation.m */; };
+		98E7EA271F5FE5F900014F5F /* MainNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E7EA261F5FE5F900014F5F /* MainNavigationController.m */; };
 		E40E6C4F1DFFBF1200B1312B /* AliMapViewDrawController.m in Sources */ = {isa = PBXBuildFile; fileRef = E40E6C3B1DFFBF1200B1312B /* AliMapViewDrawController.m */; };
 		E40E6C501DFFBF1200B1312B /* AliMapViewDrawCustomAnnotationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E40E6C3D1DFFBF1200B1312B /* AliMapViewDrawCustomAnnotationController.m */; };
 		E40E6C511DFFBF1200B1312B /* AliMapViewDrawPinController.m in Sources */ = {isa = PBXBuildFile; fileRef = E40E6C3F1DFFBF1200B1312B /* AliMapViewDrawPinController.m */; };
@@ -186,8 +195,23 @@
 		98E7EA001F5FE03500014F5F /* TrackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackViewController.m; sourceTree = "<group>"; };
 		98E7EA011F5FE03500014F5F /* ZSPointAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSPointAnnotation.h; sourceTree = "<group>"; };
 		98E7EA021F5FE03500014F5F /* ZSPointAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSPointAnnotation.m; sourceTree = "<group>"; };
-		98E7EA091F5FE08200014F5F /* MapTrasckViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapTrasckViewController.h; sourceTree = "<group>"; };
-		98E7EA0A1F5FE08300014F5F /* MapTrasckViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapTrasckViewController.m; sourceTree = "<group>"; };
+		98E7EA091F5FE08200014F5F /* MapTrasckViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapTrasckViewController.h; path = ../MapTrasckViewController.h; sourceTree = "<group>"; };
+		98E7EA0A1F5FE08300014F5F /* MapTrasckViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MapTrasckViewController.m; path = ../MapTrasckViewController.m; sourceTree = "<group>"; };
+		98E7EA0F1F5FE2AC00014F5F /* Address.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Address.plist; sourceTree = "<group>"; };
+		98E7EA101F5FE2AD00014F5F /* position.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = position.plist; sourceTree = "<group>"; };
+		98E7EA131F5FE30300014F5F /* MorePointViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MorePointViewController.h; sourceTree = "<group>"; };
+		98E7EA141F5FE30300014F5F /* MorePointViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MorePointViewController.m; sourceTree = "<group>"; };
+		98E7EA171F5FE36100014F5F /* BoatInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoatInfo.h; sourceTree = "<group>"; };
+		98E7EA181F5FE36100014F5F /* BoatInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoatInfo.m; sourceTree = "<group>"; };
+		98E7EA191F5FE36100014F5F /* GotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GotoViewController.h; sourceTree = "<group>"; };
+		98E7EA1A1F5FE36100014F5F /* GotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GotoViewController.m; sourceTree = "<group>"; };
+		98E7EA1B1F5FE36100014F5F /* MyPositionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPositionViewController.h; sourceTree = "<group>"; };
+		98E7EA1C1F5FE36100014F5F /* MyPositionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPositionViewController.m; sourceTree = "<group>"; };
+		98E7EA1D1F5FE36100014F5F /* MyPositionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyPositionViewController.xib; sourceTree = "<group>"; };
+		98E7EA1E1F5FE36100014F5F /* YYAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYAnnotation.h; sourceTree = "<group>"; };
+		98E7EA1F1F5FE36100014F5F /* YYAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYAnnotation.m; sourceTree = "<group>"; };
+		98E7EA251F5FE5F900014F5F /* MainNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainNavigationController.h; path = ../show/MainNavigationController.h; sourceTree = "<group>"; };
+		98E7EA261F5FE5F900014F5F /* MainNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainNavigationController.m; path = ../show/MainNavigationController.m; sourceTree = "<group>"; };
 		E40E6C3A1DFFBF1200B1312B /* AliMapViewDrawController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AliMapViewDrawController.h; sourceTree = "<group>"; };
 		E40E6C3B1DFFBF1200B1312B /* AliMapViewDrawController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AliMapViewDrawController.m; sourceTree = "<group>"; };
 		E40E6C3C1DFFBF1200B1312B /* AliMapViewDrawCustomAnnotationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AliMapViewDrawCustomAnnotationController.h; sourceTree = "<group>"; };
@@ -454,6 +478,22 @@
 			name = "编码反编码";
 			sourceTree = "<group>";
 		};
+		98E7EA161F5FE34B00014F5F /* morepoint */ = {
+			isa = PBXGroup;
+			children = (
+				98E7EA171F5FE36100014F5F /* BoatInfo.h */,
+				98E7EA181F5FE36100014F5F /* BoatInfo.m */,
+				98E7EA191F5FE36100014F5F /* GotoViewController.h */,
+				98E7EA1A1F5FE36100014F5F /* GotoViewController.m */,
+				98E7EA1B1F5FE36100014F5F /* MyPositionViewController.h */,
+				98E7EA1C1F5FE36100014F5F /* MyPositionViewController.m */,
+				98E7EA1D1F5FE36100014F5F /* MyPositionViewController.xib */,
+				98E7EA1E1F5FE36100014F5F /* YYAnnotation.h */,
+				98E7EA1F1F5FE36100014F5F /* YYAnnotation.m */,
+			);
+			name = morepoint;
+			sourceTree = "<group>";
+		};
 		E40E6C391DFFBF1200B1312B /* draw */ = {
 			isa = PBXGroup;
 			children = (
@@ -492,6 +532,8 @@
 		E40E6C461DFFBF1200B1312B /* other */ = {
 			isa = PBXGroup;
 			children = (
+				98E7EA251F5FE5F900014F5F /* MainNavigationController.h */,
+				98E7EA261F5FE5F900014F5F /* MainNavigationController.m */,
 				E40E6C491DFFBF1200B1312B /* AliMapKit.pch */,
 				E40E6C471DFFBF1200B1312B /* AliMapAppDelegate.h */,
 				E40E6C481DFFBF1200B1312B /* AliMapAppDelegate.m */,
@@ -514,8 +556,13 @@
 				98E7E9FE1F5FE03500014F5F /* DatouzhenViewController.m */,
 				98E7E9FF1F5FE03500014F5F /* TrackViewController.h */,
 				98E7EA001F5FE03500014F5F /* TrackViewController.m */,
+				98E7EA091F5FE08200014F5F /* MapTrasckViewController.h */,
+				98E7EA0A1F5FE08300014F5F /* MapTrasckViewController.m */,
 				98E7EA011F5FE03500014F5F /* ZSPointAnnotation.h */,
 				98E7EA021F5FE03500014F5F /* ZSPointAnnotation.m */,
+				98E7EA131F5FE30300014F5F /* MorePointViewController.h */,
+				98E7EA141F5FE30300014F5F /* MorePointViewController.m */,
+				98E7EA161F5FE34B00014F5F /* morepoint */,
 			);
 			path = show;
 			sourceTree = "<group>";
@@ -698,6 +745,8 @@
 				E46A4A341DFEDA710099E425 /* Main.storyboard */,
 				E46A4A371DFEDA710099E425 /* Assets.xcassets */,
 				E46A4A391DFEDA710099E425 /* LaunchScreen.storyboard */,
+				98E7EA0F1F5FE2AC00014F5F /* Address.plist */,
+				98E7EA101F5FE2AD00014F5F /* position.plist */,
 				E46A4A3C1DFEDA710099E425 /* Info.plist */,
 				E46A4A2C1DFEDA710099E425 /* main.m */,
 			);
@@ -733,8 +782,6 @@
 				E40E6C581DFFC44400B1312B /* source */,
 				E40E6C461DFFBF1200B1312B /* other */,
 				E40E6C4C1DFFBF1200B1312B /* show */,
-				98E7EA091F5FE08200014F5F /* MapTrasckViewController.h */,
-				98E7EA0A1F5FE08300014F5F /* MapTrasckViewController.m */,
 				E40E6C391DFFBF1200B1312B /* draw */,
 				E40E6CC41E002C0B00B1312B /* position */,
 				E4E4E2641E013F8E00D73011 /* search */,
@@ -998,6 +1045,7 @@
 				E40E6C9B1E001C3B00B1312B /* arrow_right.png in Resources */,
 				E40E6CB71E001C6F00B1312B /* animatedCar_2.png in Resources */,
 				E4D2B4641E03D38A00B53E42 /* map10.png in Resources */,
+				98E7EA111F5FE2AD00014F5F /* Address.plist in Resources */,
 				E4D2B4801E04018A00B53E42 /* custtexture_green.png in Resources */,
 				E4D2B4841E04018A00B53E42 /* custtexture.png in Resources */,
 				E40E6CAD1E001C3B00B1312B /* userPosition@2x.png in Resources */,
@@ -1014,6 +1062,7 @@
 				E4D2B4631E03D38A00B53E42 /* map9.png in Resources */,
 				E40E6C9E1E001C3B00B1312B /* car@2x.png in Resources */,
 				E40E6C691DFFDB6500B1312B /* location@2x.png in Resources */,
+				98E7EA121F5FE2AD00014F5F /* position.plist in Resources */,
 				E40E6CBC1E001C6F00B1312B /* animatedTrain_3.png in Resources */,
 				E40E6CA71E001C3B00B1312B /* naviBackgroundNormal.png in Resources */,
 				E4D2B45E1E03D38A00B53E42 /* map7.png in Resources */,
@@ -1032,6 +1081,7 @@
 				E40E6C841E001C0B00B1312B /* icon-72.png in Resources */,
 				E40E6CB81E001C6F00B1312B /* animatedCar_3.png in Resources */,
 				E46A4A381DFEDA710099E425 /* Assets.xcassets in Resources */,
+				98E7EA231F5FE36100014F5F /* MyPositionViewController.xib in Resources */,
 				E4D2B45D1E03D38A00B53E42 /* map6.png in Resources */,
 				E40E6C861E001C0B00B1312B /* icon.png in Resources */,
 				E4D2B4821E04018A00B53E42 /* custtexture_serious.png in Resources */,
@@ -1121,6 +1171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4E4E2701E015F3700D73011 /* AliMapViewShopModel.m in Sources */,
+				98E7EA271F5FE5F900014F5F /* MainNavigationController.m in Sources */,
 				E41DB11B1E02687D006318D2 /* AliMapViewBusStopSearchController.m in Sources */,
 				E40E6C541DFFBF1200B1312B /* AliMapViewDrawPinDefalutPointController.m in Sources */,
 				E41DB1241E029F3D006318D2 /* AliMapViewWeatherSearchController.m in Sources */,
@@ -1128,6 +1179,7 @@
 				E40E6C511DFFBF1200B1312B /* AliMapViewDrawPinController.m in Sources */,
 				98E7EA051F5FE03500014F5F /* CustomAnnotationView.m in Sources */,
 				98E7EA031F5FE03500014F5F /* AliMapRootViewController.m in Sources */,
+				98E7EA151F5FE30300014F5F /* MorePointViewController.m in Sources */,
 				E4320C981E02422300E72BE3 /* AliMapViewPOISearchByKeywordController.m in Sources */,
 				E4EECCA21E00426C00E6460E /* AliMapViewContinuePositionController.m in Sources */,
 				E40E6C531DFFBF1200B1312B /* AliMapViewDrawPinCustomPointController.m in Sources */,
@@ -1135,6 +1187,7 @@
 				E40E6C4F1DFFBF1200B1312B /* AliMapViewDrawController.m in Sources */,
 				98E7EA0B1F5FE08300014F5F /* MapTrasckViewController.m in Sources */,
 				E4320C971E02422300E72BE3 /* AliMapViewPOISearchByIDController.m in Sources */,
+				98E7EA241F5FE36100014F5F /* YYAnnotation.m in Sources */,
 				E4EE46A11E0185230018111D /* UIButton+WebCache.m in Sources */,
 				E4320C961E02422300E72BE3 /* AliMapViewPOISearchByAroundController.m in Sources */,
 				E4E4E2601E0131F600D73011 /* AliMapViewMonitoringRegionController.m in Sources */,
@@ -1150,6 +1203,7 @@
 				E40E6C5D1DFFC70C00B1312B /* AliMapViewCustomCalloutView.m in Sources */,
 				E4D2B4481E03744500B53E42 /* AliMapViewWalkRouteController.m in Sources */,
 				E4320C9A1E02422300E72BE3 /* AliMapViewPOISearchByRouteController.m in Sources */,
+				98E7EA221F5FE36100014F5F /* MyPositionViewController.m in Sources */,
 				98E7EA041F5FE03500014F5F /* BYMapViewVC.mm in Sources */,
 				E40E6C631DFFCC8F00B1312B /* AliMapViewCustomAnnotationView.m in Sources */,
 				E4EE469B1E0185230018111D /* SDWebImageCompat.m in Sources */,
@@ -1158,11 +1212,13 @@
 				E41DB1151E0246D0006318D2 /* AliMapViewReGeocodeSearchController.m in Sources */,
 				E4EE469E1E0185230018111D /* SDWebImageDownloaderOperation.m in Sources */,
 				E4EE469C1E0185230018111D /* SDWebImageDecoder.m in Sources */,
+				98E7EA211F5FE36100014F5F /* GotoViewController.m in Sources */,
 				E4EE469F1E0185230018111D /* SDWebImageManager.m in Sources */,
 				E4EECC991E003E2700E6460E /* AliMapViewPositionController.m in Sources */,
 				E40E6C501DFFBF1200B1312B /* AliMapViewDrawCustomAnnotationController.m in Sources */,
 				E40E6C551DFFBF1200B1312B /* AliMapAppDelegate.m in Sources */,
 				E4EECC9F1E00422F00E6460E /* AliMapViewBackgroundPositionController.m in Sources */,
+				98E7EA201F5FE36100014F5F /* BoatInfo.m in Sources */,
 				E4D2B44B1E03747500B53E42 /* AliMapViewBusRouteController.m in Sources */,
 				E4D2B4421E03720A00B53E42 /* AliMapViewCarRouteController.m in Sources */,
 				E4D2B4521E03C5FE00B53E42 /* AliMapViewSystemNaviDriveController.m in Sources */,

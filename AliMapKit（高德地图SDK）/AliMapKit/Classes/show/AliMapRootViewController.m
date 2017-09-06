@@ -2,8 +2,8 @@
 //  ViewController.m
 //  AliMapKit
 //
-//  Created by 夏远全 on 16/12/12.
-//  Copyright © 2016年 广州市东德网络科技有限公司. All rights reserved.
+//  Created by YST on 17/04/15.
+//  Copyright © 2016年 优信无限. All rights reserved.
 //
 
 #import "AliMapRootViewController.h"
@@ -19,6 +19,7 @@
 #import "DatouzhenViewController.h"
 #import "BYMapViewVC.h"
 #import "TrackViewController.h"
+#import "MorePointViewController.h"
 
 @interface AliMapRootViewController ()<UITableViewDataSource,UITableViewDelegate>
 @property (strong,nonatomic)NSMutableArray *allFunctions;//全部功能
@@ -29,7 +30,7 @@
 
 -(NSMutableArray *)allFunctions{
     if (!_allFunctions) {
-        _allFunctions = [NSMutableArray arrayWithObjects:@"地图显示",@"地图绘制",@"地图定位",@"数据检索",@"路线规划",@"汽车导航",@"编码反遍吗",@"原生地图使用",@"原生地图轨迹",@"大头针",@"地图轨迹",@"轨迹2", nil];
+        _allFunctions = [NSMutableArray arrayWithObjects:@"地图显示",@"地图绘制",@"地图定位",@"数据检索",@"路线规划",@"汽车导航",@"编码反遍吗",@"原生地图使用",@"原生地图轨迹",@"大头针",@"地图轨迹",@"轨迹2",@"多大头针", nil];
     }
     return _allFunctions;
 }
@@ -41,6 +42,10 @@
     _tableView.dataSource = self;
     _tableView.delegate = self;
     [self.view addSubview:_tableView];
+    
+    self.navigationItem.backBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"返回" style:UIBarButtonItemStylePlain target:nil action:nil];
+    
+    self.navigationController.navigationBar.tintColor = [UIColor redColor];
     
 //    iOS7以后如何在App被杀死的情况下仍然获取用户地理位置 http://www.jianshu.com/p/f0f89cc81a2d
 }
@@ -148,6 +153,13 @@
     //地图轨迹
     if (indexPath.row==11) {
         TrackViewController *mapViewNavVC = [[TrackViewController alloc] init];
+        mapViewNavVC.title = self.allFunctions[indexPath.row];
+        [self.navigationController pushViewController:mapViewNavVC animated:YES];
+    }
+    //大头针
+    if (indexPath.row==12) {
+       MorePointViewController *mapViewNavVC = [[MorePointViewController alloc] init];
+        mapViewNavVC.navigationItem.leftBarButtonItem.title = @"返回";
         mapViewNavVC.title = self.allFunctions[indexPath.row];
         [self.navigationController pushViewController:mapViewNavVC animated:YES];
     }
