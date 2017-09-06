@@ -35,6 +35,8 @@
 @property(nonatomic,assign)double cureeLon;
 @property(nonatomic,strong)MKMapView      *mapView;
 
+@property (nonatomic,strong)NSArray *dataArr;
+
 
 @end
 
@@ -53,6 +55,9 @@ static NSString *addressCellID = @"addressCellID";
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    //程序关闭后台定位数据数组。
+     self.dataArr = [[NSUserDefaults standardUserDefaults] objectForKey:@"UserDefaultLocation"];
     
     //原生地图 添加多个大头针  循环添加
     
@@ -226,7 +231,8 @@ static NSString *addressCellID = @"addressCellID";
 }
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     if (tableView == addressListTabView) {
-        return 5;
+        
+        return self.dataArr.count;
     }else{
         return 3;
     }
@@ -243,7 +249,13 @@ static NSString *addressCellID = @"addressCellID";
     
     if (tableView == addressListTabView) {
         UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:addressCellID ];
-        cell.textLabel.text = @"666";
+        if (self.dataArr.count != 0) {
+            NSDictionary *dic = [self.dataArr objectAtIndex:indexPath.row];
+            NSString *Str = [NSString stringWithFormat:@"%f %f %@",[dic[@"latitude"] doubleValue],[dic[@"longitude"] doubleValue],dic[@"time"]];
+            cell.textLabel.text = Str;
+            cell.textLabel.numberOfLines = 2;
+        }
+
         return cell;
     }else{
         

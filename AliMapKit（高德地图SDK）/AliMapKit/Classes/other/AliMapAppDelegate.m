@@ -7,6 +7,7 @@
 //
 
 #import "AliMapAppDelegate.h"
+#import "MMLocationManager.h"
 
 @interface AliMapAppDelegate ()
 
@@ -19,6 +20,16 @@
    
     //注册AliMap
     [AMapServices sharedServices].apiKey = AliMap_Appkey;
+    
+#if __IPHONE_OS_VERSION_MAX_ALLOWED >= 80000
+    [[MMLocationManager sharedManager]requestAlwaysAuthorization];
+#endif
+    
+#if __IPHONE_OS_VERSION_MAX_ALLOWED >= 90000
+    [[MMLocationManager sharedManager]setAllowsBackgroundLocationUpdates:YES];
+#endif
+    [[MMLocationManager sharedManager]startMonitoringSignificantLocationChanges];
+
     
     return YES;
 }
