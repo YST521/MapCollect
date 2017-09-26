@@ -19,6 +19,7 @@
 #import "DatouzhenViewController.h"
 #import "BYMapViewVC.h"
 #import "TrackViewController.h"
+#import "MorePointController.h"
 
 @interface AliMapRootViewController ()<UITableViewDataSource,UITableViewDelegate>
 @property (strong,nonatomic)NSMutableArray *allFunctions;//全部功能
@@ -29,7 +30,7 @@
 
 -(NSMutableArray *)allFunctions{
     if (!_allFunctions) {
-        _allFunctions = [NSMutableArray arrayWithObjects:@"地图显示",@"地图绘制",@"地图定位",@"数据检索",@"路线规划",@"汽车导航",@"编码反遍吗",@"原生地图使用",@"原生地图轨迹",@"大头针",@"地图轨迹",@"轨迹2", nil];
+        _allFunctions = [NSMutableArray arrayWithObjects:@"地图显示",@"地图绘制",@"地图定位",@"数据检索",@"路线规划",@"汽车导航",@"编码反遍吗",@"原生地图使用",@"原生地图轨迹",@"大头针",@"地图轨迹",@"轨迹2",@"多打头针显示", nil];
     }
     return _allFunctions;
 }
@@ -148,6 +149,13 @@
     //地图轨迹
     if (indexPath.row==11) {
         TrackViewController *mapViewNavVC = [[TrackViewController alloc] init];
+        mapViewNavVC.title = self.allFunctions[indexPath.row];
+        [self.navigationController pushViewController:mapViewNavVC animated:YES];
+    }
+    
+    //地图轨迹
+    if (indexPath.row==12) {
+        MorePointController *mapViewNavVC = [[MorePointController alloc] init];
         mapViewNavVC.title = self.allFunctions[indexPath.row];
         [self.navigationController pushViewController:mapViewNavVC animated:YES];
     }

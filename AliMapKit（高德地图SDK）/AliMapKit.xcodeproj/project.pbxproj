@@ -21,6 +21,7 @@
 		98B9181F1EFA6B1A002A5318 /* CodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98B9181E1EFA6B1A002A5318 /* CodeViewController.m */; };
 		98E7E9F21F5FD4A600014F5F /* BYMapViewVC.mm in Sources */ = {isa = PBXBuildFile; fileRef = 98E7E9F11F5FD4A600014F5F /* BYMapViewVC.mm */; };
 		98E7E9F61F5FD9A300014F5F /* TrackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E7E9F51F5FD9A300014F5F /* TrackViewController.m */; };
+		98E7EA0E1F5FE17F00014F5F /* MorePointController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E7EA0D1F5FE17F00014F5F /* MorePointController.m */; };
 		E40E6C4F1DFFBF1200B1312B /* AliMapViewDrawController.m in Sources */ = {isa = PBXBuildFile; fileRef = E40E6C3B1DFFBF1200B1312B /* AliMapViewDrawController.m */; };
 		E40E6C501DFFBF1200B1312B /* AliMapViewDrawCustomAnnotationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E40E6C3D1DFFBF1200B1312B /* AliMapViewDrawCustomAnnotationController.m */; };
 		E40E6C511DFFBF1200B1312B /* AliMapViewDrawPinController.m in Sources */ = {isa = PBXBuildFile; fileRef = E40E6C3F1DFFBF1200B1312B /* AliMapViewDrawPinController.m */; };
@@ -199,6 +200,8 @@
 		98E7E9F11F5FD4A600014F5F /* BYMapViewVC.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BYMapViewVC.mm; sourceTree = "<group>"; };
 		98E7E9F41F5FD9A300014F5F /* TrackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackViewController.h; sourceTree = "<group>"; };
 		98E7E9F51F5FD9A300014F5F /* TrackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackViewController.m; sourceTree = "<group>"; };
+		98E7EA0C1F5FE17F00014F5F /* MorePointController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MorePointController.h; sourceTree = "<group>"; };
+		98E7EA0D1F5FE17F00014F5F /* MorePointController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MorePointController.m; sourceTree = "<group>"; };
 		E40E6C3A1DFFBF1200B1312B /* AliMapViewDrawController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AliMapViewDrawController.h; sourceTree = "<group>"; };
 		E40E6C3B1DFFBF1200B1312B /* AliMapViewDrawController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AliMapViewDrawController.m; sourceTree = "<group>"; };
 		E40E6C3C1DFFBF1200B1312B /* AliMapViewDrawCustomAnnotationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AliMapViewDrawCustomAnnotationController.h; sourceTree = "<group>"; };
@@ -545,6 +548,8 @@
 				98E7E9F51F5FD9A300014F5F /* TrackViewController.m */,
 				9859C3BB1F431AD100973DDB /* ZSPointAnnotation.h */,
 				9859C3BC1F431AD100973DDB /* ZSPointAnnotation.m */,
+				98E7EA0C1F5FE17F00014F5F /* MorePointController.h */,
+				98E7EA0D1F5FE17F00014F5F /* MorePointController.m */,
 			);
 			path = other;
 			sourceTree = "<group>";
@@ -1185,6 +1190,7 @@
 				E4E4E2761E015F7D00D73011 /* AliMapViewShopCellFrame.m in Sources */,
 				E4EE46A21E0185230018111D /* UIImage+GIF.m in Sources */,
 				E4EE46A01E0185230018111D /* SDWebImagePrefetcher.m in Sources */,
+				98E7EA0E1F5FE17F00014F5F /* MorePointController.m in Sources */,
 				E40E6C601DFFCC4F00B1312B /* AliMapViewCustomPinAnnotationView.m in Sources */,
 				E41DB1121E0245E9006318D2 /* AliMapViewGeocodeSearchController.m in Sources */,
 				E40E6C5D1DFFC70C00B1312B /* AliMapViewCustomCalloutView.m in Sources */,
